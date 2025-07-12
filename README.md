@@ -1,5 +1,5 @@
-🛰️ Introducing MOSAIC-SEN2-CC
-A Multispectral Dataset and Adaptation Framework for Remote Sensing Change Captioning
+# Introducing MOSAIC-SEN2-CC: A Multispectral Dataset and Adaptation Framework for Remote Sensing Change Captioning
+
 This repository supports our IEEE JSTARS submission:
 "Introducing MOSAIC-SEN2-CC: A Multispectral Dataset and Adaptation Framework for Remote Sensing Change Captioning"
 
