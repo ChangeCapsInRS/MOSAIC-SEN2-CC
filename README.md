@@ -16,7 +16,7 @@ No source code is shared at this stage. The full dataset and codebase will be re
 
 🖼️ Dataset Overview Visual
 You can view a sample visualization and dataset overview in the document below:
-📄 View Overview (MOSAIC-CC-H.pdf)
+📄 [View Overview (MOSAIC-CC-H.pdf)](MOSAIC-CC-H.pdf)
 
 🔁 If hosted inside this repository, ensure MOSAIC-CC-H.pdf is placed in the root or assets/ folder.
 
