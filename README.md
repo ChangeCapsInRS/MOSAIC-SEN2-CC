@@ -10,7 +10,7 @@ To support transparency during peer review, we provide a representative subset o
 
 + Corresponding change captions
 
-📁 Download the sample subset (Google Drive)
+📁 [Download the sample subset (Google Drive)](https://drive.google.com/file/d/1VVj92gLIDVsOKng4kUUJr8MweaH6vxt1/view?usp=sharing)
 
 No source code is shared at this stage. The full dataset and codebase will be released upon paper acceptance.
 
