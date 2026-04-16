@@ -33,17 +33,16 @@ DOI:
 ## 📘 MOSAIC-SEN2-CC Dataset
 We introduce **MOSAIC-SEN2-CC**, a multispectral remote sensing change captioning dataset.
 
-- [Download Link (Google Drive)](https://drive.google.com/file/d/1eqqVaYQfyjPKjziABe-Xmr4v3HnMlDF3/view?usp=sharing)
+- [Download Link (Google Drive)](https://drive.google.com/drive/folders/1cNaJ6XH9tBe1uvNirwy-l9leKlgAAkOn?usp=sharing)
 - [Download Link (Zenodo, DOI: coming soon)
 - Train / Val / Test splits provided with 10 Sentinel 2 multispectral band images
 - Includes paired images + change captions
 
 ## ⚙️ Installation and Dependencies
-```bash (will be updated)
-git clone https://github.com/MOSAIC-Lab/MModalCC.git
-cd MModalCC
-conda create -n mmodalcc_env python=3.6
-conda activate mmodalcc_env
+```bash
+cd MOSAIC-SEN2-CC
+conda create -n mosaiccc_env python=3.10
+conda activate mosaiccc_env
 pip install -r requirements.txt
 ```
 
@@ -73,7 +72,7 @@ After downloading, place them under:
 ### Download the Dataset
 Download **MOSAIC-SEN2-CC** dataset from Google Drive:
 
-- [MOSAIC-SEN2-CC Dataset (Google Drive)](https://drive.google.com/file/d/1GseNGhs2qhIW6G72fktrWckbTaZ98vws/view?usp=sharing)
+- [MOSAIC-SEN2-CC Dataset - Images (Google Drive)](https://drive.google.com/drive/folders/1cNaJ6XH9tBe1uvNirwy-l9leKlgAAkOn?usp=sharing)
 - [MOSAIC-SEN2-CC Dataset (Zenodo, will be updated)
 
 ---
@@ -88,7 +87,16 @@ After downloading, put it into:
 
 Run demo:
 ```bash
-python eval_MModalCC.py --beam_size 4 --data_folder .\createdFileBlackAUG --path .\checkpoint
+cd .\RSICCformer_MS_BigEarthNet\
+
+python .\eval_changed.py 
+--data_folder ../MOSAIC-SEN2-CC/ 
+--data_name MOSAIC-SEN2-CC_5_cap_per_img_5_min_word_freq 
+--encoder_image resnet101 
+--Split TEST 
+--beam_size 1 
+--path  training_model_checkpoint_save_path/model_dir 
+--terminal_output   training_model_checkpoint_save_path/model_dir 
 ```
 Generated captions will be saved in the workspace as well as ground truth captions.
 
@@ -96,19 +104,22 @@ Generated captions will be saved in the workspace as well as ground truth captio
 
 ## 🏋️ Training (will be updated)
 
-Make sure dataset preprocessing is done. Then run:
+Make sure the dataset is downloaded. Then run:
 
 Run training:
 ```bash
-python train_MModalCC.py
-  --data_folder ./createdFileBlackAUG/ \
-  --data_name SECOND_CC_5_cap_per_img_10_min_word_freq \
-  --encoder_image resnet101 \
-  --epochs 30 \
-  --batch_size 28 \
-  --encoder_lr 5e-5 \
-  --decoder_lr 5e-5 \
-  --fine_tune_encoder True
+cd .\RSICCformer_MS_BigEarthNet\
+
+python .\train_changed_withNC.py 
+--data_folder ../MOSAIC-SEN2-CC/ 
+--data_name MOSAIC-SEN2-CC_5_cap_per_img_5_min_word_freq 
+--encoder_image resnet101 
+--epochs 30 
+--batch_size 16 
+--encoder_lr 5e-5 
+--decoder_lr 5e-5 
+--fine_tune_encoder True
+--beam_size 1
 
 ```
   
