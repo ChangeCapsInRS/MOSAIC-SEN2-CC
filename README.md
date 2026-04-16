@@ -13,7 +13,11 @@ The paper introduces multispectral change captioning for remote sensing, a task 
 ---
 
 You can view a sample visualization and MOSAIC dataset overview in the document below:
-📄 [View Overview (MOSAIC-CC-H.pdf)](MOSAIC-CC-H.pdf)
+<p align="center">
+  <img src="mosaicDataset.png" alt="MOSAIC Dataset" width="850"/>
+</p>
+
+
 DOI: 
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ChangeCapsInRS/MOSAIC-SEN2-CC)]()
 [![GitHub stars](https://img.shields.io/github/stars/ChangeCapsInRS/MOSAIC-SEN2-CC?style=social)]()
@@ -76,7 +80,7 @@ Download **SECOND-CC** dataset from Google Drive:
 
 ## 🔎 Inference Demo (will be updated)
 
-You can download our pretrained model checkpoint: [Google Drive](https://drive.google.com/file/d/1VYGYn9UbdCRnVJrpOWZAx-WRXHZwzW4C/view?usp=sharing)
+You can download our pretrained model checkpoint: [Google Drive](https://drive.google.com/file/d/1I9uxZI6P99J-8GcFMGN3_vHPEZMAZEyR/view?usp=sharing)
 
 After downloading, put it into:
 
