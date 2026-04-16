@@ -105,7 +105,7 @@ Generated captions will be saved in the workspace as well as ground truth captio
 
 ## 🏋️ Training (will be updated)
 
-Make sure the dataset is downloaded. Download BigEarthNet pretrained ResNet101 backbone checkpoint from here: [Google Drive](https://drive.google.com/drive/folders/1cNaJ6XH9tBe1uvNirwy-l9leKlgAAkOn?usp=sharing)
+Make sure the dataset is downloaded. Download BigEarthNet pretrained ResNet101 backbone checkpoint from here: [Google Drive](https://drive.google.com/file/d/1oGw9P4SzaYBoiJl11YMd3m-fGCmEm6sN/view?usp=sharing)
 
 After downloading, put the pretrained BigEarthnet encoder backbone into:
 ./BigEarthnetModels/
