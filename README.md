@@ -81,9 +81,10 @@ Download **MOSAIC-SEN2-CC** dataset from Google Drive:
 
 You can download our pretrained model checkpoint: [Google Drive](https://drive.google.com/file/d/1I9uxZI6P99J-8GcFMGN3_vHPEZMAZEyR/view?usp=sharing)
 
-After downloading, put it into:
-
+After downloading, put the checkpoint into:
 ./checkpoint/
+
+
 
 Run demo:
 ```bash
@@ -104,7 +105,13 @@ Generated captions will be saved in the workspace as well as ground truth captio
 
 ## 🏋️ Training (will be updated)
 
-Make sure the dataset is downloaded. Then run:
+Make sure the dataset is downloaded. Download BigEarthNet pretrained ResNet101 backbone checkpoint from here: [Google Drive](https://drive.google.com/drive/folders/1cNaJ6XH9tBe1uvNirwy-l9leKlgAAkOn?usp=sharing)
+
+After downloading, put the pretrained BigEarthnet encoder backbone into:
+./BigEarthnetModels/
+
+
+Then run:
 
 Run training:
 ```bash
