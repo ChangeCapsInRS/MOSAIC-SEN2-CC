@@ -122,9 +122,7 @@ If you find our work useful, please cite:
 @ARTICLE{karaca2025robust,
   author={Busra Tuzlupinar, Enes Ozelbas, Mehmet Fatih Amasyali, Ali Can Karaca},
   journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
-  title={Introducing MOSAIC-SEN2-CC: A Multispectral
-Dataset and Adaptation Framework for Remote
-Sensing Change Captioning}, 
+  title={Introducing MOSAIC-SEN2-CC: A Multispectral Dataset and Adaptation Framework for Remote Sensing Change Captioning}, 
   year={2025},
   volume={18},
   number={},
