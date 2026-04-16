@@ -71,10 +71,10 @@ After downloading, place them under:
 ## 📂 Data Preparation
 
 ### Download the Dataset
-Download **SECOND-CC** dataset from Google Drive:
+Download **MOSAIC-SEN2-CC** dataset from Google Drive:
 
-- [SECOND-CC Dataset (Google Drive)](https://drive.google.com/file/d/1GseNGhs2qhIW6G72fktrWckbTaZ98vws/view?usp=sharing)
-- [SECOND-CC Dataset (Zenodo, will be updated)
+- [MOSAIC-SEN2-CC Dataset (Google Drive)](https://drive.google.com/file/d/1GseNGhs2qhIW6G72fktrWckbTaZ98vws/view?usp=sharing)
+- [MOSAIC-SEN2-CC Dataset (Zenodo, will be updated)
 
 ---
 
