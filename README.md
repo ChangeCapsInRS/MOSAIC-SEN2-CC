@@ -34,7 +34,7 @@ DOI:
 We introduce **MOSAIC-SEN2-CC**, a multispectral remote sensing change captioning dataset.
 
 - [Download Link (Google Drive)](https://drive.google.com/drive/folders/1cNaJ6XH9tBe1uvNirwy-l9leKlgAAkOn?usp=sharing)
-- [Download Link (Zenodo, DOI: coming soon)
+- [Download Link (Zenodo, DOI: [10.5281/zenodo.19677262](http://dx.doi.org/10.5281/zenodo.19677262))
 - Train / Val / Test splits provided with 10 Sentinel 2 multispectral band images
 - Includes paired images + change captions
 
@@ -72,12 +72,12 @@ After downloading, place them under:
 ### Download the Dataset
 Download **MOSAIC-SEN2-CC** dataset from Google Drive:
 
-- [MOSAIC-SEN2-CC Dataset - Images (Google Drive)](https://drive.google.com/drive/folders/1cNaJ6XH9tBe1uvNirwy-l9leKlgAAkOn?usp=sharing)
-- [MOSAIC-SEN2-CC Dataset (Zenodo, will be updated)
+- [MOSAIC-SEN2-CC Dataset (Google Drive)](https://drive.google.com/drive/folders/1cNaJ6XH9tBe1uvNirwy-l9leKlgAAkOn?usp=sharing)
+- [MOSAIC-SEN2-CC Dataset (Zenodo)] (http://dx.doi.org/10.5281/zenodo.19677262))
 
 ---
 
-## 🔎 Inference Demo (will be updated)
+## 🔎 Inference Demo
 
 You can download our pretrained model checkpoint: [Google Drive](https://drive.google.com/file/d/1I9uxZI6P99J-8GcFMGN3_vHPEZMAZEyR/view?usp=sharing)
 
@@ -103,7 +103,7 @@ Generated captions will be saved in the workspace as well as ground truth captio
 
 ---
 
-## 🏋️ Training (will be updated)
+## 🏋️ Training 
 
 Make sure the dataset is downloaded. Download BigEarthNet pretrained ResNet101 backbone checkpoint from here: [Google Drive](https://drive.google.com/file/d/1oGw9P4SzaYBoiJl11YMd3m-fGCmEm6sN/view?usp=sharing)
 
